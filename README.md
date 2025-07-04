@@ -67,7 +67,7 @@ cp .env.example .env
 MISTRAL_API_KEY=VOTRE_CLE_ICI
 ```
 ## 6.Usage
-# Lancer l’application Streamlit
+### Lancer l’application Streamlit
 ```
 streamlit run streamlit_app/main.py
 ```
