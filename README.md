@@ -75,6 +75,26 @@ MISTRAL_API_KEY=VOTRE_CLE_ICI
 ```
 ## 6.Usage
 # Lancer l’application Streamlit
-
+```
 streamlit run streamlit_app/main.py
 ```
+## 7.Structure
+├── assets/
+│   ├── auth.css
+│   ├── chat_llm.css
+│   └── logo.png
+├── histories/
+│   └── <user>.json
+├── streamlit_app/
+│   ├── main.py
+│   ├── .env.example
+│   └── utils/
+│       ├── auth.py
+│       ├── history.py
+│       ├── llm_api.py
+│       ├── rag_utils.py
+│       ├── viz.py
+│       └── pdf_generator.py
+├── requirements.txt
+└── README.md
+
