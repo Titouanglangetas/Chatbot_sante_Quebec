@@ -44,8 +44,8 @@
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/votre-utilisateur/nom-du-repo.git
-cd nom-du-repo
+git clone https://github.com/Titouanglangetas/Chatbot_sante_Quebec.git
+cd Chatbot_sante_Quebec
 
 # 2. Créer et activer un environnement virtuel
 python -m venv .venv
