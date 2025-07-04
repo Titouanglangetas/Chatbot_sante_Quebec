@@ -49,8 +49,6 @@ cd Chatbot_sante_Quebec
 
 # 2. Créer et activer un environnement virtuel
 python -m venv .venv
-# macOS/Linux
-source .venv/bin/activate
 # Windows
 .venv\Scripts\activate
 
