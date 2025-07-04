@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*.local
+.ipynb_checkpoints/
+.pytest_cache/
+streamlit_app/histories/
