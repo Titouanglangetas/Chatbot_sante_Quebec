@@ -1,4 +1,4 @@
-# 🚀 Titre du projet
+# 🤖 Chatbot Santé – Québec
 
 > _Une courte description du projet en une phrase ou deux._
 
@@ -68,8 +68,8 @@ Copier le modèle d’environnement
 ## 5. Installation
 ```bash
 cp .env.example .env
-
+```
 Éditer .env et renseigner vos clés :
-
+```
 MISTRAL_API_KEY=VOTRE_CLE_ICI
 ```
