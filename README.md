@@ -18,8 +18,25 @@
 ---
 
 ## 1. Description
+    Recherche Augmentée par Argument (RAG) avec ChromaDB pour interroger des documents de santé factices et réels (statistiques sur les troubles respiratoires, l’asthme, l’anxiété, etc.).
 
-Décrivez ici l’objectif principal de l’application, le problème qu’elle résout et son public cible.
+    Moteur LLM (via l’API Mistral) pour formuler des réponses contextuelles et générer des analyses chiffrées.
+
+    Visualisations dynamiques (Matplotlib) permettant de tracer l’évolution des indicateurs de santé sur une période donnée.
+
+    Génération de rapports PDF enrichis d’analyses et de graphiques exportables.
+
+    Gestion sécurisée des utilisateurs avec authentification Streamlit et historique persistant des conversations (stocké en JSON par utilisateur).
+
+L’interface offre :
+
+    Un chat contextuel où chaque question déclenche une recherche RAG et, si pertinent, une représentation graphique.
+
+    Un menu Rapport autonome pour générer, consulter et télécharger un rapport détaillé (Introduction, Points clés, Graphique, Analyse, Conclusion).
+
+    Une barre latérale listant les conversations passées, avec création, sélection et suppression de sessions.
+
+Ce projet vise à faciliter l’analyse rapide de données de santé québécoises et à offrir aux professionnel·le·s un outil d’aide à la décision simple, robuste et entièrement personnalisable.
 
 ---
 
