@@ -63,11 +63,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 Copier le modèle d’environnement
-
+```
 
 ## 5. Installation
+```bash
 cp .env.example .env
 
 Éditer .env et renseigner vos clés :
 
 MISTRAL_API_KEY=VOTRE_CLE_ICI
+```
