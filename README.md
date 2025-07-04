@@ -1,6 +1,6 @@
 # 🤖 Chatbot Santé – Québec
 
-> _Une courte description du projet en une phrase ou deux._
+>Chatbot Santé Québec est une application web interactive développée avec Streamlit, conçue spécifiquement pour les professionnel·le·s de la santé du Québec. 
 
 ---
 
@@ -13,9 +13,7 @@
 5. [Configuration](#configuration)  
 6. [Usage](#usage)  
 7. [Structure du projet](#structure-du-projet)  
-8. [Variables d’environnement](#variables-denvironnement)  
-9. [Contribuer](#contribuer)  
-10. [Licence](#licence)  
+
 
 ---
 
@@ -79,6 +77,7 @@ MISTRAL_API_KEY=VOTRE_CLE_ICI
 streamlit run streamlit_app/main.py
 ```
 ## 7.Structure
+```
 ├── assets/
 │   ├── auth.css
 │   ├── chat_llm.css
@@ -97,4 +96,4 @@ streamlit run streamlit_app/main.py
 │       └── pdf_generator.py
 ├── requirements.txt
 └── README.md
-
+```
